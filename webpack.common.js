@@ -4,6 +4,7 @@ module.exports = {
     vendor: "./src/vendor.js",
     main: "./src/index.js"
   },
+  watch: true,
   module: {
     rules: [
       {

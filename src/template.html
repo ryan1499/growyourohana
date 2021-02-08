@@ -33,18 +33,43 @@
     <!-- **** Hero Section **** -->
     <div id="hero" class="jumbotron">
       <div class="container">
-        <img src="./assets/logo.png" height='auto' width='400px' alt='logo'/>
         <h1 class="hero-title" class="load-hidden">
           Aloha, our name is <span class="text-color-main">Grow Your </span><span class='text-color-secondary'>ʻOhana</span>
           <br /><br />
-          We take Hawaiʻi-based brands' online sales to the next level.
+          We use modern technology to bring you an endless stream of customers.
         </h1>
         <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Learn More</a>
+          <a class="cta-btn cta-btn--hero" href="#problem">Learn More</a>
         </p>
       </div>
     </div>
     <!-- /END Hero Section -->
+
+    <section id='problem'>
+      <div class='container'>
+        <h2 class='section-title'>
+          The Problem...
+        </h2>
+        <div class='row about-wrapper__info'>
+          <p>
+            Hawai`i lags far behind the rest of the world in its adoption of new
+            technologies. <br><br>This means businesses on the mainland are leaving Hawaiian
+            businesses in the dust, while <b>Hawaiian businesses still struggle</b> with issues solved
+            long ago by technology...
+          </p>
+        </div>
+        <h2 class='section-title' style="padding-top: 1em">
+          The Solution...
+        </h2>
+        <div class='row about-wrapper__info'>
+          <p>
+            It's simple: Use the same technology. The issue is, new tech is impossible to
+            keep up with, hard to learn, and you as a business owner have enough on your plate.
+            <br><br>That's where we come in...
+          </p>
+        </div>
+      </div>
+    </section>
 
     <!-- **** About Section **** -->
     <section id="about">
@@ -67,16 +92,16 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                Grow Your Ohana (GYO) is a Hawai`i-based digital advertising agency that
-                helps e-commerce brands increase their online sales. We use social media
-                advertising to profitably acquire customers, letting you focus on running
-                your business while we get you customers.
+                At Grow Your Ohana (GYO), we use the latest in modern technology to help Hawaiian businesses
+                put customer acquisition on autopilot, letting you focus on running
+                your business while<b> we bring you an endless stream of customers.</b>
               </p>
               <p class="about-wrapper__info-text">
-                GYO was founded by Ryan Combes (featured) - a Hawai`i-grown tech
-                enthusiast and entrepreneur, who realized Hawaiian companies were missing out on new technologies
-                to grow their businesses. To solve this, he founded GYO and has since helped
-                numerous brands take their online sales to the next level.
+                GYO was founded by Ryan Combes (featured) - a Hawai`i-grown tech enthusiast and
+                entrepreneur who grew tired of seeing Hawaiian businesses left in the dust.
+                To solve this, he decided to use his <b>skills in technology and marketing to
+                profitably acquire customers,</b> increasing revenue and letting them focus on
+                what they know best.
               </p>
               <span class="d-flex mt-3">
                 <a class="cta-btn cta-btn--resume" href="#projects">
@@ -158,7 +183,7 @@
                     under $2 per lead.</b>
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                <a class="cta-btn cta-btn--hero" data-toggle='modal' data-target="#napua_modal">
                   See Results
                 </a>
                 <a target="_blank" class="cta-btn text-color-main" href="https://www.napuarestaurant.com">
@@ -176,6 +201,21 @@
               </div>
             </div>
           </div>
+          <div class="modal fade" id="napua_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title">Napua Restaurant Facebook Advertising Results</h2>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class='modal-body'>
+                    <img class='img-fluid' src="./assets/napua_results.png" alt='napua_results'/>
+                </div>'
+              </div>
+            </div>
+          </div>
           <!-- /END Project -->
 
           <!-- Each .row is a project -->
@@ -186,12 +226,12 @@
                 <div>
                   <p class="mb-4">
                     Ola Tropical Apothecary provides organic skin and body care products sourced
-                    from Hawai`i's finest ingredients. To increase online sales, we ran Facebook 
-                    Advertising campaigns that <b>returned over 150% on first purchases, profitably
-                    acquiring lifelong customers.</b>
+                    from Hawai`i's finest ingredients. To generate new customers, we ran Facebook
+                    Advertising campaigns that <b>returned over 110% on first purchases, profitably
+                    acquiring valuable lifelong customers.</b>
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="./onboarding/1.html">
+                <a class="cta-btn cta-btn--hero" data-toggle='modal' data-target="#ola_modal">
                   See Results
                 </a>
                 <a target="_blank" class="cta-btn text-color-main" href="https://www.hawaiianbodyproducts.com">
@@ -209,6 +249,21 @@
               </div>
             </div>
           </div>
+          <div class="modal fade" id="ola_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title">Ola Tropical Apothecary Facebook Advertising Results</h2>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class='modal-body'>
+                    <img class='img-fluid' src="./assets/ola_results.png" alt='ola_results'/>
+                </div>'
+              </div>
+            </div>
+          </div>
           <!-- /END Project -->
         </div>
       </div>
@@ -223,14 +278,14 @@
         </h2>
         <div class="contact-wrapper">
           <p class="contact-wrapper__text">
-            Want to grow your online sales? Book a discovery call with us to learn more
-            about our service and what we can do for you. 
+            Want to use the latest in modern technology to grow your business? Book a
+            discovery call with us to learn more about our service and what we can do for you.
           </p>
           <a
             target="_blank"
             class="cta-btn cta-btn--resume"
             href="https://app.acuityscheduling.com/schedule.php?owner=20041512"
-            >Book a Call</a
+            >Book Your Free Call</a
           >
         </div>
       </div>
@@ -243,14 +298,14 @@
         <a href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <div class="social-links">
+        <!-- <div class="social-links">
           <a href="https://www.facebook.com/Grow-Your-Ohana-111632233915562" target="_blank">
             <i class="fa fa-facebook fa-inverse"></i>
           </a>
           <a href="https://www.linkedin.com/company/grow-your-ohana" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-        </div>
+        </div> -->
 
         <hr />
     </footer>
